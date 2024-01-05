@@ -1,0 +1,85 @@
+/* styles.css */
+
+/* Global Styles */
+
+/* styles.css */
+@import 'bulma/css/bulma.min.css';
+
+h1 {
+  margin-bottom: 1rem;
+  font-size: 30px;
+}
+
+/* Add your custom styles here */
+.text-light-red {
+  color: #ff6b6b;
+}
+
+.standard-color{
+  font-weight: bold;
+  color: black
+  
+}
+
+.border-light-red {
+  border-color: #ff6b6b !important;
+}
+
+.hover-light-red:hover {
+  background-color: #ff6b6b;
+  color: white;
+}
+
+.focus-ring-light-red:focus {
+  box-shadow: 0 0 0 0.2rem rgba(255, 107, 107, 0.25);
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Menu Component Styles */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+
+form {
+  display: grid;
+  gap: 1rem;
+}
+
+label {
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid ;
+  border-radius: 0.25rem;
+  outline: none;
+}
+
+button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #e9383e;
+  color: #ffffff;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #e9383e;
+}
+
+/* Table Styles (Add as needed) */
